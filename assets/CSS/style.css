@@ -1,11 +1,15 @@
+/*IMPORTANDO FONTE*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
+/*RESETANDO A PÁGINA*/
 *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
+/*CODIGO DA COR NO SITE: https://cssgradient.io/
+*/
 body {
     height: 100vh;
     background: linear-gradient(90deg, rgba(99,20,134,1) 0%, rgba(63,4,127,1) 39%, rgba(28,11,182,1) 100%, rgba(2,0,36,1) 100%);    display: flex;
@@ -17,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
+    height: 200px; 
     width: 550px;
     background: transparent;
     border-radius: 5px;
